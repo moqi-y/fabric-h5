@@ -1,0 +1,59 @@
+<!--
+ * @Author: yuanzhen
+ * @Date: 2022-09-13 15:51:02
+ * @LastEditors: yuanzhen 2504621340@qq.com
+ * @LastEditTime: 2022-09-13 17:32:08
+ * @FilePath: \fabrich5\index.html
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./dist/fabric.min.js"></script>
+</head>
+
+<body>
+    <canvas style="border: 1px solid black;" width="800" height="800" id="canvas"></canvas>
+    <!-- <img style="display: none;" src="./image/songshu.jpeg" id="my-image" /> -->
+    <script>
+        // 初始化画布
+        var canvas = new fabric.Canvas('canvas');
+        // 初始化画布
+        // var imgElement = document.getElementById('my-image');
+        // var imgInstance = new fabric.Image(imgElement, {
+        //     left: 100,
+        //     top: 100,
+        //     angle: 30,
+        //     opacity: 0.85
+        // });
+        // canvas.add(imgInstance);
+        fabric.textureSize = 5000;
+        fabric.Image.fromURL('./image/eye.png', function (oImg) {
+            oImg.scale(0.6)
+            oImg.set('lockMovementX', true) //锁定X方向移动
+            oImg.set('lockMovementY', true) //锁定Y方向移动
+
+            oImg.set({ top: 10 });
+            // oImg.set('Grayscale', true)
+            var filter = new fabric.Image.filters.RemoveColor({
+                color: "#01FFFF",  //移除的颜色
+                threshold: 40,
+                distance: 0.1
+            });
+            canvas.add(oImg);
+            oImg.filters.push(filter);
+            oImg.applyFilters();
+            canvas.renderAll();
+        });
+
+
+    </script>
+
+</body>
+
+</html>
