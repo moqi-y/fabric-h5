@@ -1,14 +1,14 @@
 <!--
  * @Author: yuanzhen
  * @Date: 2023-08-16 20:12:26
- * @LastEditTime: 2023-08-17 10:49:00
+ * @LastEditTime: 2023-08-17 11:52:53
  * @FilePath: \fabric-h5\Vue3-Demo\src\components\FabricBorderStyle.vue
  * @Description: 
 -->
 <template>
     <div>
         <h1>Fabric-Vue3 边框样式</h1>
-        <canvas id="canvas2" width="900" height="600"></canvas>
+        <canvas id="canvas2" width="1200" height="600"></canvas>
     </div>
 </template>
 

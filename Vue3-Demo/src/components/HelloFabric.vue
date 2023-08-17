@@ -1,14 +1,14 @@
 <!--
  * @Author: yuanzhen
  * @Date: 2023-08-16 20:12:26
- * @LastEditTime: 2023-08-17 10:12:39
+ * @LastEditTime: 2023-08-17 11:52:44
  * @FilePath: \fabric-h5\Vue3-Demo\src\components\HelloFabric.vue
  * @Description: 
 -->
 <template>
   <div>
     <h1>Fabric-Vue3 初体验</h1>
-    <canvas id="canvas1" width="900" height="600"></canvas>
+    <canvas id="canvas1" width="1200" height="600"></canvas>
   </div>
 </template>
 
