@@ -15,7 +15,11 @@ H5中的使用方法见：**H5-Demo** 文件夹
 
 Vue3中的使用方法见：**Vue3-Demo** 文件夹
 
-## 测试说明
+## 其他说明
+
+💡由于我的图片素材尺寸过大，所以在案例中为了效果，使用了 `oImg.scale(0.6)`方法缩小图片显示尺寸，便于图片展示。
+
+💡注意：如果同一页面需要多次使用canvas，请注意元素id唯一性的原则
 
 #### 测试图片：
 
@@ -25,4 +29,6 @@ https://img1.imgtp.com/2023/08/16/lCr0IuJK.jpg
 
 https://img1.imgtp.com/2023/08/16/XXozyfMm.png
 
-https://img1.imgtp.com/2023/08/16/f79MVzAO.png
+https://img1.imgtp.com/2023/08/17/9lMZxoA6.png
+
+https://img1.imgtp.com/2023/08/17/XXSIrLpI.png
