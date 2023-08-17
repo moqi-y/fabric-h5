@@ -2,7 +2,7 @@
  * @Author: moqi
  * @Date: 2022-09-13 15:51:02
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-08-17 10:59:40
+ * @LastEditTime: 2023-08-17 11:31:30
  * @FilePath: \fabric-h5\H5-Demo\index.html
  * @Description: 
 -->
@@ -13,9 +13,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../dist/fabric.min.js"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/fabric.js/5.3.0/fabric.js"></script>
+    <title>fabric-H5 初体验</title>
+    <script src="https://cdn.jsdelivr.net/npm/fabric@5.3.0/dist/fabric.min.js"></script>
+    <script>
+        const img = new Image();
+        img.crossOrigin = "anonymous"; // 允许跨源数据加载</script>
 </head>
 
 <body>
@@ -34,8 +36,8 @@
         // });
         // canvas.add(imgInstance);
         fabric.textureSize = 5000;
-        fabric.Image.fromURL('../image/eye.png', function (oImg) {
-            oImg.scale(0.6)
+        fabric.Image.fromURL('./songshu.jpeg', function (oImg) {
+            // oImg.scale(0.6)
             oImg.set('lockMovementX', false) //锁定X方向移动
             oImg.set('lockMovementY', false) //锁定Y方向移动
 
