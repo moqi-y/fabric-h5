@@ -21,6 +21,12 @@ Vue3中的使用方法见：**Vue3-Demo** 文件夹
 
 💡注意：如果同一页面需要多次使用canvas，请注意元素id唯一性的原则
 
+### 😊这里推荐一个其他博主的中文文档及示例，供大家学习：
+
+**Fabric.js 中文教程：[首页 | fabric.js中文教程 (gitee.io)](https://k21vin.gitee.io/fabric-js-doc/)**
+
+**Fabric.js 学习Demo：[Fabric.js学习资料（中文教程）](https://gitee.com/k21vin/fabricjs-demo)**
+
 #### 测试图片：
 
 https://img1.imgtp.com/2023/08/16/MnDkrhB3.jpg
