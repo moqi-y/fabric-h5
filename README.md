@@ -26,15 +26,3 @@ Vue3中的使用方法见：**Vue3-Demo** 文件夹
 > **Fabric.js 中文教程：[首页 | fabric.js中文教程 (gitee.io)](https://k21vin.gitee.io/fabric-js-doc/)**
 >
 > **Fabric.js 学习Demo：[Fabric.js学习资料（中文教程）](https://gitee.com/k21vin/fabricjs-demo)**
-
-#### 测试图片：
-
-https://img1.imgtp.com/2023/08/16/MnDkrhB3.jpg
-
-https://img1.imgtp.com/2023/08/16/lCr0IuJK.jpg
-
-https://img1.imgtp.com/2023/08/16/XXozyfMm.png
-
-https://img1.imgtp.com/2023/08/17/9lMZxoA6.png
-
-https://img1.imgtp.com/2023/08/17/XXSIrLpI.png
