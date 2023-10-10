@@ -1,7 +1,7 @@
 <!--
  * @Author: yuanzhen
  * @Date: 2023-08-16 20:12:26
- * @LastEditTime: 2023-08-17 11:52:53
+ * @LastEditTime: 2023-10-10 09:43:11
  * @FilePath: \fabric-h5\Vue3-Demo\src\components\FabricBorderStyle.vue
  * @Description: 
 -->
@@ -31,7 +31,7 @@ onMounted(() => {
     /**
      * 隐藏控制点效果
      */
-    fabric.Image.fromURL('https://img1.imgtp.com/2023/08/17/XXSIrLpI.png', function (oImg) {
+    fabric.Image.fromURL('https://tucdn.wpon.cn/2023/10/10/91b787da57268.jpg', function (oImg) {
         oImg.scale(0.4)  //将图片缩小0.4倍
         oImg.hasControls = false;  //隐藏控制点
         canvas.add(oImg);  //将图片添加到画布上
@@ -40,7 +40,7 @@ onMounted(() => {
     /**
      * 自定义边框颜色
      */
-    fabric.Image.fromURL('https://img1.imgtp.com/2023/08/17/9lMZxoA6.png', function (oImg) {
+    fabric.Image.fromURL('https://tucdn.wpon.cn/2023/10/10/e4704503d2cda.png', function (oImg) {
         oImg.set({
             transparentCorners: false, //控制点是否实心填充
             cornerColor: 'blue',    //控制点颜色
